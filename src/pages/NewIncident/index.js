@@ -6,7 +6,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 
 export default function NewIncident() {
   const [description, setDescription] = useState('');
@@ -55,7 +55,7 @@ export default function NewIncident() {
     <div className="new-incident-container">
       <div className="content">
         <section>
-          <img src={logoImg} alt="Be The Hero"/>
+          <img src={logoImg} style={{ width:'120%' }} alt="Re-Collection"/>
 
           <h1>Solicitar nova coleta</h1>
           <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>

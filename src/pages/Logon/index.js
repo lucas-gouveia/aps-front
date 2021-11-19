@@ -6,7 +6,7 @@ import api from '../../services/api';
 
 import './styles.css'
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 import heroesImg from '../../assets/heroes.png';
 
 export default function Logon() {
@@ -38,7 +38,7 @@ export default function Logon() {
     return (
         <div className="logon-container">
             <section className="form">
-                <img src={logoImg} alt="Logo"/>
+                <img style={{ width:'120%' }} src={logoImg} alt="Logo"/>
 
                 <form onSubmit={handleLogin}>
                     <h1>Faça seu login</h1>
