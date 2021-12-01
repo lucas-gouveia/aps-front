@@ -66,7 +66,7 @@ export default function Profile() {
           <FiPower size={18} color="#E02041" />
         </button>
         {/* <Link className="button" to="/incidents/new">Cadastrar novo caso</Link> */}
-        <Link className="button" to="/colect">Cadastrar novo caso</Link>
+        <Link className="button" to="/colect">Cadastrar nova coleta</Link>
       </header>
       <h1>Coletas solicitadas</h1>
 
