@@ -40,7 +40,7 @@ export default function Register() {
     <div className="register-container">
       <div className="content">
         <section>
-          <img  style={{ width:'120%' }} src={logoImg} alt="Re-Collection"/>
+          <img style={{ width:'70%' }} src={logoImg} alt="Re-Collection"/>
 
           <h1>Cadastro</h1>
           <p>Faça seu cadastro, entre na plataforma e ajude a salvar o meio ambiente com a Re-Collection.</p>

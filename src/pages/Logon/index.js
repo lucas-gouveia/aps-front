@@ -38,7 +38,7 @@ export default function Logon() {
     return (
         <div className="logon-container">
             <section className="form">
-                <img style={{ width:'120%' }} src={logoImg} alt="Logo"/>
+                <img style={{ width:'70%' }} src={logoImg} alt="Logo"/>
 
                 <form onSubmit={handleLogin}>
                     <h1>Faça seu login</h1>
@@ -63,7 +63,7 @@ export default function Logon() {
                 </form>
             </section>
 
-            <img src={heroesImg} alt="Heroes" />
+            <img style={{ width:'70%' }} src={heroesImg} alt="Heroes" />
         </div>
     );
 }
