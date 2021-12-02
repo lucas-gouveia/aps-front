@@ -55,10 +55,10 @@ export default function NewIncident() {
     <div className="new-incident-container">
       <div className="content">
         <section>
-          <img src={logoImg} style={{ width:'120%' }} alt="Re-Collection"/>
+          <img src={logoImg} style={{ width:'70%' }} alt="Re-Collection"/>
 
           <h1>Solicitar nova coleta</h1>
-          <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>
+          <p>Descreva o endereço e o tipo do material que será coletado.</p>
 
           <Link className="back-link" to="/profile">
             <FiArrowLeft size={16} color="#E02041" />

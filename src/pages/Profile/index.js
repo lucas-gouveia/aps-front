@@ -59,14 +59,14 @@ export default function Profile() {
   return (
     <div className="profile-container">
       <header>
-        <img src={logoImg} alt="Re-Collection"/>
+        <img style={{ width:'70%' }}  src={logoImg} alt="Re-Collection"/>
         <span>Bem vindo (a), {Name}</span>
 
-        {/* <Link className="button" to="/incidents/new">Cadastrar novo caso</Link> */}
-        <Link className="button" to="/colect">Cadastrar novo caso</Link>
         <button onClick={handleLogout} type="button">
           <FiPower size={18} color="#E02041" />
         </button>
+        {/* <Link className="button" to="/incidents/new">Cadastrar novo caso</Link> */}
+        <Link className="button" to="/colect">Cadastrar nova coleta</Link>
       </header>
       <h1>Coletas solicitadas</h1>
 
